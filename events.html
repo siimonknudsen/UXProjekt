@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <!-- Meta & SEO-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="Køkkenknive, køkken, køkkenværktøj, tilbehør, værktøj, køkkentilbehør, kokkekniv, kokkeknive," />
+    <meta name="description" content="Køb dine køkkenknive, kokkeknive, knivsæt & slibegrej online. 
+        Fri fragt - 48 timers levering - 100% tilfredshedsgaranti. Køb nu.">
+    <meta name="og:title" property="og:title" content="Børglum Kollegie">
+    <meta name="twitter:card" content="Børglum Kollegie">
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+    <link rel="canonical" href="http://simonboehrnsknudsen.dk/">
+    <title>Børglum Kollegie</title>
+
+    <!-- CSS & FONTS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- DATEPICKER CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- TOP FIXED NAVIGATION -->
+        <div class="top_nav">
+            <a href="">
+                <img src="img/loupe.svg" alt="">
+            </a>
+
+
+            <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="">
+            </a>
+
+
+            <a href="profil.html">
+                <img src="img/userdark.svg" alt="">
+            </a>
+        </div>
+
+        <!-- BOTTOM FIXED NAVIGATION -->
+        <nav class="bottom_nav">
+            <a href="index.html">
+                <img src="img/home.svg" alt="">
+                <span>Hjem</span>
+            </a>
+            <a class="bottom_nav_active" href="events.html">
+                <img src="img/calendar.svg" alt="">
+                <span>Events</span>
+            </a>
+            <a href="booking.html">
+                <img src="img/booking2.svg" alt="">
+                <span>Booking</span>
+            </a>
+            <a href="profil.html">
+                <img src="img/userbright.svg" alt="">
+                <span>Profil</span>
+            </a>
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section>
+            <h1 class="header1">Events</h1>
+
+
+            <div class="calendar_wrapper">
+                <input type="text" id="datepicker" placeholder="Vælg dato">
+                <a href="events-kalender.html">
+                    <img id="calendar_icon_link" src="img/calendar.svg" alt="">
+                </a>
+            </div>
+
+
+            <div class="content">
+                <div class="grid_system_primary_box">
+
+
+                    <div class="primary_box_design">
+                        <img src="img/bordtennis_overlay.png" alt="">
+                        <h3 class="primary_box_design_header">Bordtennis turnering</h4>
+                            <p class="primary_box_design_text1">22-04-2021 </p>
+                            <div class="btn_wrapper">
+                                <a class="primary_box_design_btn" href="events-bordtennis-turnering.html">Læs mere</a>
+                            </div>
+
+                    </div>
+
+                    <div class="primary_box_design">
+                        <img src="img/havefest_overlay.png" alt="">
+                        <h3 class="primary_box_design_header">Havefest</h4>
+                            <p class="primary_box_design_text1">24-04-2021 </p>
+                            <div class="btn_wrapper">
+                                <a class="primary_box_design_btn" href="events-havefest.html">Læs mere</a>
+                            </div>
+
+                    </div>
+
+                    <div class="primary_box_design">
+                        <img src="img/holdtraning_overlay.png" alt="">
+                        <h3 class="primary_box_design_header">Holdtræning</h4>
+                            <p class="primary_box_design_text1">25-04-2021 </p>
+                            <div class="btn_wrapper">
+                                <a class="primary_box_design_btn" href="events-holdtraening.html">Læs mere</a>
+                            </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--  DATEPICKER -->
+            <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+            <script>
+                var picker = new Pikaday({
+                    field: document.getElementById('datepicker')
+                });
+            </script>
+
+
+        </section>
+    </main>
+</body>
+
+</html>
